@@ -1,0 +1,35 @@
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environnements virtuels
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Fichiers de données (optionnel - à adapter selon vos besoins)
+# app/files/**/*.json
+# app/files/**/*.txt
+
+# Fichiers de log (optionnel - à adapter selon vos besoins)
+# app/files/**/*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*.cache
