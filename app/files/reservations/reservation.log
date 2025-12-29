@@ -1,1 +1,7 @@
-ce fichier contiendra les logs des reservations de l'application toute reservation sera enregistrée dans ce fichier:
+[29/12/2025 21:41:40] NOTIFICATION: Le livre 'Python pour les Nuls' (ISBN: TEST001) est maintenant disponible.
+Réservation ID: reservationoO544
+Utilisateur: Bob (ID: ETU002)
+Position dans la file: 1
+Date de réservation: 29/12/2025
+================================================================================
+
