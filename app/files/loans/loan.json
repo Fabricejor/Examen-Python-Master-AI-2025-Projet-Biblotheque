@@ -1,0 +1,52 @@
+[
+    {
+        "id_emprunt": "empruntCv573",
+        "date_emprunt": "03/01/2026",
+        "date_retour_prevue": "02/02/2026",
+        "id_livre": "nP598",
+        "titre_livre": "Une si longue lettre",
+        "id_utilisateur": "usertY531",
+        "nom_utilisateur": "babacar",
+        "penalites": 0.0
+    },
+    {
+        "id_emprunt": "empruntFh276",
+        "date_emprunt": "03/01/2026",
+        "date_retour_prevue": "02/02/2026",
+        "id_livre": "nP598",
+        "titre_livre": "Une si longue lettre",
+        "id_utilisateur": "usertY531",
+        "nom_utilisateur": "babacar",
+        "penalites": 0.0
+    },
+    {
+        "id_emprunt": "empruntVX853",
+        "date_emprunt": "03/01/2026",
+        "date_retour_prevue": "02/02/2026",
+        "id_livre": "dw863",
+        "titre_livre": "Valkyrie Apocalypse",
+        "id_utilisateur": "userhC741",
+        "nom_utilisateur": "souleymane",
+        "penalites": 0.0
+    },
+    {
+        "id_emprunt": "empruntdL869",
+        "date_emprunt": "03/01/2026",
+        "date_retour_prevue": "02/02/2026",
+        "id_livre": "dw863",
+        "titre_livre": "Valkyrie Apocalypse",
+        "id_utilisateur": "userhC741",
+        "nom_utilisateur": "souleymane",
+        "penalites": 0.0
+    },
+    {
+        "id_emprunt": "empruntvx573",
+        "date_emprunt": "03/01/2026",
+        "date_retour_prevue": "24/01/2026",
+        "id_livre": "nP598",
+        "titre_livre": "Une si longue lettre",
+        "id_utilisateur": "userBw111",
+        "nom_utilisateur": "jordan ramos",
+        "penalites": 0.0
+    }
+]

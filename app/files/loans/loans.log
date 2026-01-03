@@ -1,1 +1,23 @@
-ce fichier contiendra les logs des emprunts de l'application toute emprunt sera enregistrée dans ce fichier:
+ce fichier contiendra les logs des emprunts de l'application toute emprunt sera enregistrée dans ce fichier:[03/01/2026 02:09:00] Chargement des emprunts - 0 emprunt(s) chargé(s)
+[03/01/2026 02:10:22] Emprunt de livre - ISBN: dw863, Titre: Valkyrie Apocalypse, Utilisateur: jordan ramos (userBw111), Exemplaires: 2, ID(s): empruntVn304, empruntKj919
+[03/01/2026 02:18:21] Retour de livre - ID: empruntVn304, ISBN: dw863, Titre: Valkyrie Apocalypse, Utilisateur: jordan ramos (userBw111)
+[03/01/2026 02:18:21] Retour de livre - ID: empruntKj919, ISBN: dw863, Titre: Valkyrie Apocalypse, Utilisateur: jordan ramos (userBw111)
+[03/01/2026 02:25:17] Emprunt de livre - ISBN: nP598, Titre: Une si longue lettre, Utilisateur: Madicke Diop (userUs327), Exemplaires: 1, ID(s): empruntAk734
+[03/01/2026 02:25:34] Emprunt de livre - ISBN: nP598, Titre: Une si longue lettre, Utilisateur: babacar (usertY531), Exemplaires: 1, ID(s): empruntCv573
+[03/01/2026 02:26:02] Emprunt de livre - ISBN: nP598, Titre: Une si longue lettre, Utilisateur: babacar (usertY531), Exemplaires: 1, ID(s): empruntFh276
+[03/01/2026 02:26:24] Emprunt de livre - ISBN: dw863, Titre: Valkyrie Apocalypse, Utilisateur: Madicke Diop (userUs327), Exemplaires: 1, ID(s): empruntbu248
+[03/01/2026 02:26:35] Emprunt de livre - ISBN: dw863, Titre: Valkyrie Apocalypse, Utilisateur: souleymane (userhC741), Exemplaires: 2, ID(s): empruntVX853, empruntdL869
+[03/01/2026 02:36:08] Retour de livre - ID: empruntAk734, ISBN: nP598, Titre: Une si longue lettre, Utilisateur: Madicke Diop (userUs327)
+[03/01/2026 02:36:08] Retour de livre - ID: empruntbu248, ISBN: dw863, Titre: Valkyrie Apocalypse, Utilisateur: Madicke Diop (userUs327)
+[03/01/2026 03:06:00] Chargement des emprunts - 4 emprunt(s) chargé(s)
+[03/01/2026 03:17:03] Chargement des emprunts - 4 emprunt(s) chargé(s)
+[03/01/2026 03:26:14] Chargement des emprunts - 4 emprunt(s) chargé(s)
+[03/01/2026 03:27:16] Chargement des emprunts - 4 emprunt(s) chargé(s)
+[03/01/2026 03:34:51] Chargement des emprunts - 4 emprunt(s) chargé(s)
+[03/01/2026 03:39:52] Emprunt de livre - ISBN: nP598, Titre: Une si longue lettre, Utilisateur: jordan ramos (userBw111), Exemplaires: 1, ID(s): empruntvx573
+[03/01/2026 03:53:05] Chargement des emprunts - 5 emprunt(s) chargé(s)
+[03/01/2026 04:50:49] Chargement des emprunts - 5 emprunt(s) chargé(s)
+[03/01/2026 05:12:23] Chargement des emprunts - 5 emprunt(s) chargé(s)
+[03/01/2026 05:20:14] Chargement des emprunts - 5 emprunt(s) chargé(s)
+[03/01/2026 05:20:24] Liste de tous les emprunts - 5 emprunt(s)
+[03/01/2026 05:20:24] Liste de tous les emprunts - 5 emprunt(s)

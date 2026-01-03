@@ -1,3 +1,5 @@
 # Dépendances Python pour l'application de gestion de bibliothèque
 # Python 3.8 ou supérieur requis
 
+python-dotenv>=1.0.0
+

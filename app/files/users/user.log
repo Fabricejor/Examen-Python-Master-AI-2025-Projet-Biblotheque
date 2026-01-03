@@ -1,1 +1,51 @@
-fichier contenant les logs des utilisateurs de l'application toute transaction de l'utilisateur sera enregistrée dans ce fichier:
+fichier contenant les logs des utilisateurs de l'application toute transaction de l'utilisateur sera enregistrée dans ce fichier:[03/01/2026 00:46:06] Chargement des utilisateurs - 0 utilisateur(s) chargé(s)
+[03/01/2026 00:46:14] Liste de tous les utilisateurs - 0 utilisateur(s)
+[03/01/2026 00:46:41] Ajout d'utilisateur - ID: userBw111, Nom: jordan ramos, Type: Etudiant
+[03/01/2026 00:47:09] Ajout d'utilisateur - ID: usergS548, Nom: zacky ops, Type: Etudiant
+[03/01/2026 00:47:37] Ajout d'utilisateur - ID: usertY531, Nom: babacar, Type: Etudiant
+[03/01/2026 00:50:10] Ajout d'utilisateur - ID: userhC741, Nom: souleymane, Type: Etudiant
+[03/01/2026 00:50:25] Liste de tous les utilisateurs - 4 utilisateur(s)
+[03/01/2026 00:51:20] Consultation d'utilisateur - ID: usergS548, Nom: zacky ops
+[03/01/2026 00:51:31] Liste des utilisateurs de type Enseignant - 0 utilisateur(s)
+[03/01/2026 00:51:39] Liste des utilisateurs de type Etudiant - 4 utilisateur(s)
+[03/01/2026 00:52:35] Suppression d'utilisateur - ID: usergS548, Nom: zacky ops, Type: Etudiant
+[03/01/2026 00:52:47] Liste des utilisateurs de type Etudiant - 3 utilisateur(s)
+[03/01/2026 00:53:57] Ajout d'utilisateur - ID: userUs327, Nom: Madicke Diop, Type: Enseignant
+[03/01/2026 00:54:19] Ajout d'utilisateur - ID: userda300, Nom: Robert Thiaw, Type: Personnel_admin
+[03/01/2026 01:14:24] Chargement des utilisateurs - 5 utilisateur(s) chargé(s)
+[03/01/2026 01:32:03] Chargement des utilisateurs - 5 utilisateur(s) chargé(s)
+[03/01/2026 02:09:00] Chargement des utilisateurs - 5 utilisateur(s) chargé(s)
+[03/01/2026 02:10:12] Liste de tous les utilisateurs - 5 utilisateur(s)
+[03/01/2026 02:10:22] Mise à jour d'utilisateur - ID: userBw111, Nom: jordan ramos
+[03/01/2026 02:17:51] Liste de tous les utilisateurs - 5 utilisateur(s)
+[03/01/2026 02:18:21] Mise à jour d'utilisateur - ID: userBw111, Nom: jordan ramos
+[03/01/2026 02:18:21] Mise à jour d'utilisateur - ID: userBw111, Nom: jordan ramos
+[03/01/2026 02:18:30] Liste de tous les utilisateurs - 5 utilisateur(s)
+[03/01/2026 02:25:11] Liste de tous les utilisateurs - 5 utilisateur(s)
+[03/01/2026 02:25:17] Mise à jour d'utilisateur - ID: userUs327, Nom: Madicke Diop
+[03/01/2026 02:25:31] Liste de tous les utilisateurs - 5 utilisateur(s)
+[03/01/2026 02:25:34] Mise à jour d'utilisateur - ID: usertY531, Nom: babacar
+[03/01/2026 02:25:57] Liste de tous les utilisateurs - 5 utilisateur(s)
+[03/01/2026 02:26:02] Mise à jour d'utilisateur - ID: usertY531, Nom: babacar
+[03/01/2026 02:26:16] Liste de tous les utilisateurs - 5 utilisateur(s)
+[03/01/2026 02:26:24] Mise à jour d'utilisateur - ID: userUs327, Nom: Madicke Diop
+[03/01/2026 02:26:32] Liste de tous les utilisateurs - 5 utilisateur(s)
+[03/01/2026 02:26:35] Mise à jour d'utilisateur - ID: userhC741, Nom: souleymane
+[03/01/2026 02:35:59] Liste de tous les utilisateurs - 5 utilisateur(s)
+[03/01/2026 02:36:08] Mise à jour d'utilisateur - ID: userUs327, Nom: Madicke Diop
+[03/01/2026 02:36:08] Mise à jour d'utilisateur - ID: userUs327, Nom: Madicke Diop
+[03/01/2026 03:06:00] Chargement des utilisateurs - 5 utilisateur(s) chargé(s)
+[03/01/2026 03:17:03] Chargement des utilisateurs - 5 utilisateur(s) chargé(s)
+[03/01/2026 03:26:14] Chargement des utilisateurs - 5 utilisateur(s) chargé(s)
+[03/01/2026 03:27:16] Chargement des utilisateurs - 5 utilisateur(s) chargé(s)
+[03/01/2026 03:34:51] Chargement des utilisateurs - 5 utilisateur(s) chargé(s)
+[03/01/2026 03:39:51] Liste de tous les utilisateurs - 5 utilisateur(s)
+[03/01/2026 03:39:52] Mise à jour d'utilisateur - ID: userBw111, Nom: jordan ramos
+[03/01/2026 03:40:30] Liste de tous les utilisateurs - 5 utilisateur(s)
+[03/01/2026 03:53:05] Chargement des utilisateurs - 5 utilisateur(s) chargé(s)
+[03/01/2026 04:50:49] Chargement des utilisateurs - 5 utilisateur(s) chargé(s)
+[03/01/2026 05:12:23] Chargement des utilisateurs - 5 utilisateur(s) chargé(s)
+[03/01/2026 05:20:14] Chargement des utilisateurs - 5 utilisateur(s) chargé(s)
+[03/01/2026 05:20:24] Liste de tous les utilisateurs - 5 utilisateur(s)
+[03/01/2026 05:20:24] Liste de tous les utilisateurs - 5 utilisateur(s)
+[03/01/2026 05:20:24] Liste de tous les utilisateurs - 5 utilisateur(s)
