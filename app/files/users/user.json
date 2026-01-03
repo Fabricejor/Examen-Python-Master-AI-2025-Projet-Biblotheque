@@ -1,0 +1,70 @@
+[
+    {
+        "id_user": "userBw111",
+        "nom": "jordan ramos",
+        "type_utilisateur": "Etudiant",
+        "nombre_emprunt_total": 3,
+        "list_emprunt": [
+            {
+                "id_emprunt": "empruntvx573",
+                "date_emprunt": "03/01/2026",
+                "date_retour_prevue": "24/01/2026",
+                "titre_du_livre": "Une si longue lettre"
+            }
+        ]
+    },
+    {
+        "id_user": "usertY531",
+        "nom": "babacar",
+        "type_utilisateur": "Etudiant",
+        "nombre_emprunt_total": 2,
+        "list_emprunt": [
+            {
+                "id_emprunt": "empruntCv573",
+                "date_emprunt": "03/01/2026",
+                "date_retour_prevue": "02/02/2026",
+                "titre_du_livre": "Une si longue lettre"
+            },
+            {
+                "id_emprunt": "empruntFh276",
+                "date_emprunt": "03/01/2026",
+                "date_retour_prevue": "02/02/2026",
+                "titre_du_livre": "Une si longue lettre"
+            }
+        ]
+    },
+    {
+        "id_user": "userhC741",
+        "nom": "souleymane",
+        "type_utilisateur": "Etudiant",
+        "nombre_emprunt_total": 2,
+        "list_emprunt": [
+            {
+                "id_emprunt": "empruntVX853",
+                "date_emprunt": "03/01/2026",
+                "date_retour_prevue": "02/02/2026",
+                "titre_du_livre": "Valkyrie Apocalypse"
+            },
+            {
+                "id_emprunt": "empruntdL869",
+                "date_emprunt": "03/01/2026",
+                "date_retour_prevue": "02/02/2026",
+                "titre_du_livre": "Valkyrie Apocalypse"
+            }
+        ]
+    },
+    {
+        "id_user": "userUs327",
+        "nom": "Madicke Diop",
+        "type_utilisateur": "Enseignant",
+        "nombre_emprunt_total": 2,
+        "list_emprunt": []
+    },
+    {
+        "id_user": "userda300",
+        "nom": "Robert Thiaw",
+        "type_utilisateur": "Personnel_admin",
+        "nombre_emprunt_total": 0,
+        "list_emprunt": []
+    }
+]

@@ -18,8 +18,8 @@ DATE_FORMAT_DISPLAY = "JJ/MM/AAAA"
 # Pour définir: os.environ["DATE_ACTUEL"] = "27/12/2025"
 DATE_ACTUEL_ENV = "DATE_ACTUEL"
 
-# Durée d'emprunt par défaut (en jours)
-DUREE_EMPRUNT_DEFAUT = 30
+# Durée d'emprunt par défaut (en jours) - 3 semaines
+DUREE_EMPRUNT_DEFAUT = 21
 
 # Taux de pénalité par jour de retard
 TAUX_PENALITE_PAR_JOUR = 0.5
