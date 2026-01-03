@@ -1,0 +1,22 @@
+[
+    {
+        "isbn": "dw863",
+        "titre": "Valkyrie Apocalypse",
+        "auteur": "Shinya Umemura",
+        "resume": "Wiki Valkyrie Apocalypse | FandomFandomhttps://valkyrie-apocalypse.fandom.com › wiki › Wiki_...Valkyrie Apocalypse raconte l'histoire d'un grand tournoi opposant treize dieux à treize humains historiques, dans une série de treize duels. Le sort de l' ...",
+        "statut": "disponible",
+        "compteur_emprunt": 5,
+        "nbre_exemplaire_total": 3,
+        "exemplaire_disponible": 1
+    },
+    {
+        "isbn": "nP598",
+        "titre": "Une si longue lettre",
+        "auteur": "Mariama ba",
+        "resume": "bla bla ba blal blaa",
+        "statut": "emprunté",
+        "compteur_emprunt": 4,
+        "nbre_exemplaire_total": 3,
+        "exemplaire_disponible": 0
+    }
+]

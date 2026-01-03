@@ -202,7 +202,9 @@ class Book:
             "auteur": self._auteur,
             "resume": self._resume,
             "statut": self._statut.value,
-            "compteur_emprunt": self._compteur_emprunt
+            "compteur_emprunt": self._compteur_emprunt,
+            "nbre_exemplaire_total": self._nbre_exemplaire_total,
+            "exemplaire_disponible": self._exemplaire_disponible
         }
     
     @classmethod

@@ -41,15 +41,28 @@ python3 --version
 ```
 
 ### Bibliothèques Python
-Cette application utilise uniquement les bibliothèques standard de Python. Aucune installation de dépendances externes n'est nécessaire.
 
-Bibliothèques utilisées :
+**Bibliothèques standard :**
 - `datetime` (standard)
 - `enum` (standard)
 - `pathlib` (standard)
 - `os` (standard)
 - `typing` (standard)
 - `abc` (standard)
+
+**Bibliothèque externe requise :**
+- `python-dotenv` - Pour charger les variables d'environnement depuis le fichier `.env`
+
+**Installation de python-dotenv :**
+```bash
+pip install python-dotenv
+```
+
+ou
+
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
@@ -229,12 +242,20 @@ Examen-Python-Master-AI-2025-Projet-Biblotheque/
 │   │   └── constants.py        # Constantes
 │   │
 │   └── files/                   # Persistance des données
-│       ├── books/              # Fichiers des livres
-│       ├── users/              # Fichiers des utilisateurs
-│       ├── loans/              # Fichiers des emprunts
-│       ├── reservations/       # Fichiers des réservations
-│       ├── notifications/      # Notifications
-│       └── register/           # Logs système
+│       ├── books/              # Données et logs des livres
+│       │   ├── book.json      # Instances des livres (modèle Book)
+│       │   └── book.log       # Journal des opérations sur les livres
+│       ├── users/              # Données et logs des utilisateurs
+│       │   ├── user.json      # Instances des utilisateurs (modèle User)
+│       │   └── user.log       # Journal des opérations sur les utilisateurs
+│       ├── loans/              # Données et logs des emprunts
+│       │   ├── loan.json      # Instances des emprunts (modèle Loan)
+│       │   └── loans.log      # Journal des opérations sur les emprunts
+│       ├── reservations/       # Données et logs des réservations
+│       │   ├── reservation.json  # Instances des réservations (modèle Reservation)
+│       │   └── reservation.log   # Journal des opérations et notifications
+│       ├── notifications/      # Notifications système
+│       └── register/           # Logs système supplémentaires
 │
 ├── readme.md                   # Ce fichier
 ├── STRUCTURE.md                # Documentation de la structure
@@ -292,6 +313,7 @@ Examen-Python-Master-AI-2025-Projet-Biblotheque/
 - Sauvegarde automatique après chaque opération
 - Fichiers de log pour toutes les actions
 - Persistance des données dans des fichiers JSON/TXT
+- Système de traçabilité complet via les fichiers `.log`
 
 ---
 
@@ -312,20 +334,82 @@ Examen-Python-Master-AI-2025-Projet-Biblotheque/
 Toutes les dates dans l'application utilisent le format **JJ/MM/AAAA** (exemple: 27/12/2025).
 
 ### Variables d'environnement
-Pour les tests, vous pouvez définir la variable d'environnement `DATE_ACTUEL` :
-```bash
-# Windows PowerShell
-$env:DATE_ACTUEL = "27/12/2025"
 
-# Windows CMD
-set DATE_ACTUEL=27/12/2025
+#### Configuration de DATE_ACTUEL
 
-# Linux/Mac
-export DATE_ACTUEL="27/12/2025"
-```
+La variable `DATE_ACTUEL` est **cruciale** pour le bon fonctionnement de l'application. Elle est utilisée pour :
+- Calculer les dates d'emprunt et de retour
+- Détecter les retards
+- Calculer les pénalités
+
+**Ordre de priorité pour récupérer la date :**
+
+1. **Date système de la machine** (priorité 1) :
+   - L'application tente d'abord de récupérer la date depuis le système de la machine
+   - ✅ Affiche : "Date du jour récupérée depuis le système : [date]"
+   - Cette méthode est automatique et ne nécessite aucune configuration
+
+2. **Fichier .env** (priorité 2, si date système échoue) :
+   - **Créer le fichier .env** à la racine du projet :
+     ```bash
+     # Copiez le fichier d'exemple
+     cp env.example .env
+     ```
+   - **Éditer le fichier .env** et définir la date :
+     ```
+     DATE_ACTUEL=27/12/2025
+     ```
+     Format : **JJ/MM/AAAA** (exemple: 27/12/2025)
+   - ✅ Affiche : "Date du jour récupérée depuis le fichier .env : [date]"
+
+3. **Saisie utilisateur** (priorité 3, en dernier recours) :
+   - Si les deux méthodes précédentes échouent, l'application demande à l'utilisateur de saisir la date
+   - Format attendu : **JJ/MM/AAAA** (exemple: 27/12/2025)
+
+**Note :** Le fichier `.env` est ignoré par Git (ne sera pas commité) pour des raisons de sécurité.
 
 ### Fichiers de données
-Les données sont stockées dans le dossier `app/files/`. Les fichiers sont créés automatiquement lors de la première utilisation.
+
+#### Structure de `app/files/`
+
+Le dossier `app/files/` contient toute la persistance des données de l'application. Chaque sous-dossier correspond à une entité métier et contient :
+
+1. **Un fichier `.json`** : Stocke toutes les instances du modèle correspondant
+   - Format JSON structuré
+   - Sauvegarde automatique après chaque opération (création, modification, suppression)
+   - Chargement automatique au démarrage de l'application
+
+2. **Un fichier `.log`** : Journalise toutes les opérations effectuées
+   - Traçabilité complète de toutes les actions
+   - Horodatage de chaque opération
+   - Détails des transactions (création, modification, consultation, suppression)
+   - Format texte lisible pour faciliter le débogage et l'audit
+
+#### Détails par sous-dossier
+
+- **`books/`** :
+  - `book.json` : Contient toutes les instances de livres (modèle `Book`)
+  - `book.log` : Journal de toutes les opérations sur les livres (ajout, modification, suppression, consultation)
+
+- **`users/`** :
+  - `user.json` : Contient toutes les instances d'utilisateurs (modèle `User` : Etudiant, Enseignant, PersonnelAdmin)
+  - `user.log` : Journal de toutes les opérations sur les utilisateurs (création, mise à jour, consultation, suppression)
+
+- **`loans/`** :
+  - `loan.json` : Contient toutes les instances d'emprunts en cours (modèle `Loan`)
+  - `loans.log` : Journal de toutes les opérations d'emprunt et de retour (emprunt, retour, renouvellement, détection de retards)
+
+- **`reservations/`** :
+  - `reservation.json` : Contient toutes les instances de réservations (modèle `Reservation`)
+  - `reservation.log` : Journal de toutes les opérations de réservation (création, annulation, notifications de disponibilité, transformation en emprunt)
+
+- **`notifications/`** :
+  - `notifications.log` : Notifications système
+
+- **`register/`** :
+  - `system.log` : Logs système supplémentaires
+
+**Note importante :** Tous les fichiers sont créés automatiquement lors de la première utilisation. Les fichiers `.json` sont au format JSON valide et peuvent être consultés manuellement si nécessaire. Les fichiers `.log` sont des fichiers texte que vous pouvez ouvrir avec n'importe quel éditeur de texte pour voir l'historique des opérations.
 
 ---
 
