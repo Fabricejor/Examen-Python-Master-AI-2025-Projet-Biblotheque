@@ -49,3 +49,33 @@ fichier contenant les logs des utilisateurs de l'application toute transaction d
 [03/01/2026 05:20:24] Liste de tous les utilisateurs - 5 utilisateur(s)
 [03/01/2026 05:20:24] Liste de tous les utilisateurs - 5 utilisateur(s)
 [03/01/2026 05:20:24] Liste de tous les utilisateurs - 5 utilisateur(s)
+[06/01/2026 12:55:23] Chargement des utilisateurs - 5 utilisateur(s) chargé(s)
+[06/01/2026 12:57:59] Ajout d'utilisateur - ID: userzD197, Nom: Salif Gueye, Type: Enseignant
+[06/01/2026 13:01:54] Liste de tous les utilisateurs - 6 utilisateur(s)
+[06/01/2026 13:05:58] Liste de tous les utilisateurs - 6 utilisateur(s)
+[06/01/2026 13:06:30] Consultation d'utilisateur - ID: usertY531, Nom: babacar
+[06/01/2026 13:08:43] Liste des utilisateurs de type Etudiant - 3 utilisateur(s)
+[06/01/2026 13:10:16] Liste des utilisateurs de type Enseignant - 2 utilisateur(s)
+[06/01/2026 13:11:28] Liste des utilisateurs de type Personnel_admin - 1 utilisateur(s)
+[06/01/2026 13:13:47] Liste des utilisateurs de type Etudiant - 3 utilisateur(s)
+[06/01/2026 13:15:16] Mise à jour d'utilisateur - ID: userBw111, Nom: ramos fabrice
+[06/01/2026 13:16:28] Liste des utilisateurs de type Etudiant - 3 utilisateur(s)
+[06/01/2026 13:17:41] Liste des utilisateurs de type Enseignant - 2 utilisateur(s)
+[06/01/2026 13:18:23] Suppression d'utilisateur - ID: userzD197, Nom: Salif Gueye, Type: Enseignant
+[06/01/2026 13:51:53] Liste de tous les utilisateurs - 5 utilisateur(s)
+[06/01/2026 13:52:32] Mise à jour d'utilisateur - ID: usertY531, Nom: babacar
+[06/01/2026 13:55:26] Liste de tous les utilisateurs - 5 utilisateur(s)
+[06/01/2026 13:56:33] Mise à jour d'utilisateur - ID: userBw111, Nom: ramos fabrice
+[06/01/2026 13:57:00] Liste de tous les utilisateurs - 5 utilisateur(s)
+[06/01/2026 13:58:41] Mise à jour d'utilisateur - ID: userBw111, Nom: ramos fabrice
+[06/01/2026 14:07:09] Liste de tous les utilisateurs - 5 utilisateur(s)
+[06/01/2026 14:10:50] Mise à jour d'utilisateur - ID: usertY531, Nom: babacar
+[06/01/2026 14:23:20] Liste de tous les utilisateurs - 5 utilisateur(s)
+[06/01/2026 14:26:43] Liste de tous les utilisateurs - 5 utilisateur(s)
+[06/01/2026 14:38:49] Liste de tous les utilisateurs - 5 utilisateur(s)
+[06/01/2026 14:38:49] Liste de tous les utilisateurs - 5 utilisateur(s)
+[06/01/2026 14:38:49] Liste de tous les utilisateurs - 5 utilisateur(s)
+[06/01/2026 14:42:19] Liste de tous les utilisateurs - 5 utilisateur(s)
+[06/01/2026 16:44:17] Liste de tous les utilisateurs - 5 utilisateur(s)
+[06/01/2026 16:44:17] Liste de tous les utilisateurs - 5 utilisateur(s)
+[06/01/2026 16:44:17] Liste de tous les utilisateurs - 5 utilisateur(s)
