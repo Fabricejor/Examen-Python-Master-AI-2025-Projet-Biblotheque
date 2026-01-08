@@ -232,12 +232,12 @@ class Loan:
         # Retourne 0 si pas de retard, sinon le nombre de jours de retard
         return max(0, difference)
     
-    def calculer_penalites(self, taux_par_jour: float = 0.5) -> float:
+    def calculer_penalites(self, taux_par_jour: float = 50) -> float:
         """
         Calcule les pénalités en fonction du retard.
         
         Args:
-            taux_par_jour (float): Montant de la pénalité par jour de retard. Par défaut: 0.5
+            taux_par_jour (float): Montant de la pénalité par jour de retard. Par défaut: 50
             
         Returns:
             float: Montant total des pénalités
