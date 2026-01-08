@@ -159,7 +159,7 @@ Création d'une application Python de gestion de bibliothèque pour le DIT (Daka
 
 **Durées et pénalités :**
 - `DUREE_EMPRUNT_DEFAUT = 30` (jours)
-- `TAUX_PENALITE_PAR_JOUR = 0.5` (montant par jour de retard)
+- `TAUX_PENALITE_PAR_JOUR = 50` (montant par jour de retard)
 
 ### 3. Modèle Book (`app/models/book.py`)
 

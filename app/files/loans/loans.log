@@ -21,3 +21,13 @@ ce fichier contiendra les logs des emprunts de l'application toute emprunt sera 
 [03/01/2026 05:20:14] Chargement des emprunts - 5 emprunt(s) chargé(s)
 [03/01/2026 05:20:24] Liste de tous les emprunts - 5 emprunt(s)
 [03/01/2026 05:20:24] Liste de tous les emprunts - 5 emprunt(s)
+[06/01/2026 12:55:23] Chargement des emprunts - 5 emprunt(s) chargé(s)
+[06/01/2026 13:52:32] Emprunt de livre - ISBN: nT301, Titre: Vol de nuit, Utilisateur: babacar (usertY531), Exemplaires: 1, ID(s): empruntci116
+[06/01/2026 13:56:33] Emprunt de livre - ISBN: dw863, Titre: Valkyrie Apocalypse, Utilisateur: ramos fabrice (userBw111), Exemplaires: 1, ID(s): empruntsQ891
+[06/01/2026 13:58:41] Retour de livre - ID: empruntvx573, ISBN: nP598, Titre: Une si longue lettre, Utilisateur: ramos fabrice (userBw111)
+[06/01/2026 14:10:50] Renouvellement d'emprunt - ID: empruntCv573, Nouvelle date retour: 03/02/2026
+[06/01/2026 14:38:49] Liste de tous les emprunts - 6 emprunt(s)
+[06/01/2026 14:38:49] Liste de tous les emprunts - 6 emprunt(s)
+[06/01/2026 16:44:17] Liste de tous les emprunts - 6 emprunt(s)
+[06/01/2026 16:44:17] Liste de tous les emprunts - 6 emprunt(s)
+[08/01/2026 11:24:40] Chargement des emprunts - 6 emprunt(s) chargé(s)

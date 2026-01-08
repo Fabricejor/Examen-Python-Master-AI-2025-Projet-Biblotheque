@@ -1,15 +1,15 @@
 [
     {
         "id_user": "userBw111",
-        "nom": "jordan ramos",
+        "nom": "ramos fabrice",
         "type_utilisateur": "Etudiant",
-        "nombre_emprunt_total": 3,
+        "nombre_emprunt_total": 4,
         "list_emprunt": [
             {
-                "id_emprunt": "empruntvx573",
-                "date_emprunt": "03/01/2026",
-                "date_retour_prevue": "24/01/2026",
-                "titre_du_livre": "Une si longue lettre"
+                "id_emprunt": "empruntsQ891",
+                "date_emprunt": "06/01/2026",
+                "date_retour_prevue": "27/01/2026",
+                "titre_du_livre": "Valkyrie Apocalypse"
             }
         ]
     },
@@ -17,7 +17,7 @@
         "id_user": "usertY531",
         "nom": "babacar",
         "type_utilisateur": "Etudiant",
-        "nombre_emprunt_total": 2,
+        "nombre_emprunt_total": 3,
         "list_emprunt": [
             {
                 "id_emprunt": "empruntCv573",
@@ -30,6 +30,12 @@
                 "date_emprunt": "03/01/2026",
                 "date_retour_prevue": "02/02/2026",
                 "titre_du_livre": "Une si longue lettre"
+            },
+            {
+                "id_emprunt": "empruntci116",
+                "date_emprunt": "06/01/2026",
+                "date_retour_prevue": "27/01/2026",
+                "titre_du_livre": "Vol de nuit"
             }
         ]
     },
